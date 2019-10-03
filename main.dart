@@ -1,6 +1,8 @@
 import 'Deck.dart';
 
-void main(){
+void main() {
   var deck = new Deck();
-  print(deck);
+
+  deck.removeCard(rank:'ace', suit:'diamonds');
+  print(deck.cards.length);
 }
